@@ -120,14 +120,14 @@ var contents = [
     }
     dollars  = Math.floor(totalCents / 100);
     cents = totalCents % 100;
+    console.log(totalCents)
   }
+
 
   
     for (let i= 0; i< contents.length; i++) {
       if (contents[i].quantity != 0) {
-        console.log(
-          "Item name : " +  contents[i].name + "Quantity : " + contents[i].quantity
-        );
+        console.log("Item name : " +  contents[i].name + "Quantity : " + contents[i].quantity );
       }
     }
   
